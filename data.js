@@ -5,8 +5,14 @@ var databaseKasJSON = {
         { 
           "waktu": "19 juni (07.00)", 
         "pemasukan": 360000,
-          "pengeluaran": 360000,
+          "pengeluaran": 0,
            "keterangan": "Saham ditambahkan"
+        },
+       { 
+          "waktu": "19 juni (07.00)", 
+        "pemasukan": 0,
+          "pengeluaran": 360000,
+           "keterangan": "uang di belanjakan"
         },
       { 
           "waktu": "12 juli ", 
