@@ -16,20 +16,20 @@ var databaseKasJSON = {
         },
       { 
           "waktu": "12 juli ", 
-        "pemasukan": 50000,
+        "pemasukan": 0,
           "pengeluaran": 0,
            "keterangan": "Saham ditambahkan"
         },
          { 
           "waktu": "13 juli (07.00-12.00)", 
-        "pemasukan": 37000,
+        "pemasukan": 0,
           "pengeluaran": 0,
            "keterangan": "saham bertambah"
         },
           { 
           "waktu": "13 juni (12.00)", 
         "pemasukan": 0,
-          "pengeluaran": 18000,
+          "pengeluaran": 0,
            "keterangan": "turun karena membeli cup kopi dan makan siang"
         },
 
