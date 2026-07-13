@@ -165,6 +165,27 @@ var databaseKasJSON = {
          "pengeluaran": 0,
         "keterangan":"tidak ada keterangan"
       },
+      {
+        "waktu" : "13 juli (13.00)",
+        "pemasukan": 0,
+         "pengeluaran": 10000,
+        "keterangan":"belanja cup"
+      },
+      {
+        "waktu" : "13 juli (13.15)",
+        "pemasukan": 0,
+         "pengeluaran": 8000,
+        "keterangan":"makan dan rokok"
+      },
+      {
+        "waktu" : "13 juli (13.35)",
+        "pemasukan": 4000,
+         "pengeluaran": 0,
+        "keterangan":"tidak ada keterangan"
+      },
+
+
+
 
        
         
