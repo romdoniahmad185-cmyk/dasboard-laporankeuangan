@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pendapatan kopi keliling</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
+    <link rel="stylesheet" href="main.css">
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="navbar">
+     <div class="money">
+    <p>nilai tabungan investasi kamu : </p>
+    <span>Rp. 0.00 </span>
+     </div>
+     <div class=btn-money> 
+       <button>BELI</button>
+       <button>JUAL</button>
+     </div>
+   </div>
+   
+ <div class="card"> 
+               <p>LAPORAN CATATAN PENJUALAN</p>
+      <div class="profit-summary">
+           
+         <div class="profit-box">
+                <h3>Estimasi Profit :</h3> 
+                <div id="txt-profit-bersih" class="profit-value">—</div>
+            <div id="badge-profit" class="status-badge status-naik">Menghitung...</div>
+            <div class="stats-modal">
+       <!--  <p> modal kas awal</p>-->
+            <p id="txt-modal" style="display:none; color: #fbbf24; font-weight: bold; margin-left: 10px;"></p> 
+            </div>
+         </div>
+         </div>
+              <div class="card-grafik">
+            <div id="chart-garis-modal"></div>
+              </div>
+       
+      </div>
+ </div>
+  <div class="card-sedang">
+    <h1>SUMBER PRODUK INVESTASI</h1>
+    <div class="container-income">
+      <div class="card-income"> 
+        <div class="logo-income">
+          </div>
+        <p>kopi keliling </p>
+        
+      </div>
+      
+    </div>
+  </div>
+  <div class="card">
+    <h1>RIWAYAT KEUANGAN</h1>
+      <div class="table-wrapper">
+        <div class="car">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 15%;">Waktu / Tanggal</th>
+                            <th style="width: 15%;">Pemasukan (+)</th>
+                            <th style="width: 15%;">Pengeluaran (-)</th>
+                            <th style="width: 55%;">Keterangan Transaksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body-matriks">
+                        </tbody>
+                </table>
+           </div>
+            </div>
+      <div class="bar">
+        <i data-feather="home" class="icon-style"></i>
+        <i data-feather="archive" class="icon-style"></i>
+        <button class="planning">
+          + 
+        </button>
+         <i data-feather="file-text" class="icon-style"></i>
+         <i data-feather="user" class="icon-style"></i>
+      </div>
+
+  </div>
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  
+ <table style="display: none;">
+     <tbody id="body-matriks"></tbody>
+ </table>
+
+</body>
+</html>
