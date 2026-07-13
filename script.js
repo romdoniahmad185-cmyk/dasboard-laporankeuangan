@@ -216,4 +216,4 @@ function hitungUlangForm() {
 }
 
 // Menjalankan aplikasi saat halaman siap
-window.onload = jalankanAplikasi;
+window.onload = jalankanAplikasi; 
