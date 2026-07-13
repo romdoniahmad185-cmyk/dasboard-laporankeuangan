@@ -17,10 +17,6 @@ var databaseKasJSON = {
             "pengeluaran": 18000, 
               "keterangan": "Saham turun / dibelanjakan dan makan siang" 
        },
-      { "waktu": "13 juli (13.00-19.00)",
-           "pemasukan": 13000,
-            "pengeluaran": 10000, 
-              "keterangan": "untuk makan malam" 
-       },
+      
    ]
 };
