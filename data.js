@@ -4,7 +4,7 @@ var databaseKasJSON = {
     "transaksi": [
         { "waktu": "19/06 (12.00)",
            "pemasukan": 0,
-            "pengeluaran": 0, 
+            "pengeluaran": 360000, 
               "keterangan": "Saham turun / dibelanjakan" 
        },
    ]
