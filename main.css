@@ -47,7 +47,7 @@ body {
 }
 .bar{
   background-color: #1e293b;;
-  display:flex;
+  display:none;
   position:fixed;
   width: 99%;
   height:9vh;
