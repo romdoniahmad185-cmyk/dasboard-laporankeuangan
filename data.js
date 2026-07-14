@@ -27,7 +27,7 @@ var databaseKasJSON = {
             "pengeluaran": 27000, 
               "keterangan": "belanja dan makan" 
        },
-        { "waktu": "14 juli (03.00-08.00)",
+        { "waktu": "14 juli (17.30-22.00)",
            "pemasukan": 40000,
             "pengeluaran": 34000, 
               "keterangan": "belanja dan makan" 
